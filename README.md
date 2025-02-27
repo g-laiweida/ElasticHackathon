@@ -8,3 +8,10 @@ Differences from traditional LLM based applications, RAG applications use extern
 However, if it was a RAG application, it can connect to ocbc database as a knowledge base and query from there which will be able to find my staff records 
 
 *The query passed will be embedded using embedding methods(provided by APIs) to search the external knowledge base(vector db) for similarities in vector values, which will then return relevant documents
+
+run app.py
+pip uninstall streamlit
+pip install streamlit
+pip install sentence-transformers
+pip install elasticsearch
+pip install transformers torch elasticsearch
